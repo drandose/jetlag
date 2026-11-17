@@ -16,15 +16,15 @@ No se usan librerías ni frameworks. La web es solo la parte visual: no tiene se
 
 | Pantalla | Responsable | Rama |
 |---|---|---|
-| Elementos comunes (cabecera, pie y estilos) | Dmitry | `comun` |
-| Inicio | Dmitry | `inicio` |
-| Nosotros | Dmitry | `nosotros` |
-| Explorar viajes | Antonio | `explorar-viajes` |
-| Ficha de paquete | Antonio | `ficha-paquete` |
-| Blog | Antonio | `blog` |
-| Reserva | Sergio | `reserva` |
-| Confirmación de reserva | Sergio | `confirmacion-reserva` |
-| Contacto | Sergio | `contacto` |
+| Elementos comunes (cabecera, pie y estilos) | @drandose | `comun` |
+| Inicio | @drandose | `inicio` |
+| Nosotros | @drandose | `nosotros` |
+| Explorar viajes | @Tonyjcob | `explorar-viajes` |
+| Ficha de paquete | @Tonyjcob | `ficha-paquete` |
+| Blog | @Tonyjcob | `blog` |
+| Reserva | @sergiorodriguezm11-bit | `reserva` |
+| Confirmación de reserva | @sergiorodriguezm11-bit | `confirmacion-reserva` |
+| Contacto | @sergiorodriguezm11-bit | `contacto` |
 
 El recorrido principal es: Inicio, Explorar viajes, Ficha de paquete, Reserva y Confirmación de reserva.
 
@@ -44,6 +44,29 @@ La tipografía es Inter. Los colores están definidos una sola vez como variable
 | Texto secundario | `#5B6B66` |
 | Bordes | `#D8E3DF` |
 | Blanco | `#FFFFFF` |
+
+## Estructura de archivos
+
+Cada pantalla tiene su propio archivo HTML, con el mismo nombre que su rama:
+
+| Pantalla | Archivo |
+|---|---|
+| Inicio | `index.html` |
+| Nosotros | `nosotros.html` |
+| Explorar viajes | `explorar-viajes.html` |
+| Ficha de paquete | `ficha-paquete.html` |
+| Blog | `blog.html` |
+| Reserva | `reserva.html` |
+| Confirmación de reserva | `confirmacion-reserva.html` |
+| Contacto | `contacto.html` |
+
+Carpetas:
+
+- `css/`: `comun.css` con los estilos compartidos y un archivo por pantalla (`inicio.css`, `blog.css`...).
+- `js/`: un archivo por pantalla que lo necesite.
+- `img/`: las imágenes.
+
+Todos los nombres van en minúsculas, sin tildes ni espacios.
 
 ## Cómo trabajamos
 
