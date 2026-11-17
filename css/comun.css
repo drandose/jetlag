@@ -1,0 +1,26 @@
+/* Responsable: @drandose */
+/* Colores de la web. Se definen una sola vez y se usan por su nombre. */
+:root {
+  --color-principal: #0B6E5A;
+  --color-acento: #C9431A;
+  --color-oscuro: #0A2E27;
+  --color-fondo-alterno: #F2F7F5;
+  --color-texto: #1B2B27;
+  --color-texto-secundario: #5B6B66;
+  --color-bordes: #D8E3DF;
+  --color-blanco: #FFFFFF;
+}
+
+/* Ajustes generales para todas las páginas */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 15px;
+  color: var(--color-texto);
+  background-color: var(--color-blanco);
+}
